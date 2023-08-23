@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#profile">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="welcome-section">
+      <h1>Hey I am JY</h1>
+      <p>an (aspiring) web developer</p>
+    </header>
+    <section id="projects">
+      <div class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"></a>
+      </div>
+      <div class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"></a>
+      </div>
+      <div class="project-tile">
+        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"></a>
+      </div>
+    </section>
+    <section id="profile">
+      <h1>Let's work together...</h1>
+      <p>How do you take your coffee?</p>
+      <div class="logo"><a href="https://github.com/freecodecamp" id="profile-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a></div>
+    </section>
+  </body>
+</html>
